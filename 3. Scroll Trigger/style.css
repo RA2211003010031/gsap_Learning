@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(118, 215, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(127, 238, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    position: flex;
+}
