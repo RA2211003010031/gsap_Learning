@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0 50px;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 2px solid #6B6B6B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    /* font-weight: 500; */
+    font-size: 25px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#nav h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#page1 #container{
+    /* background-color: red; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+#container #left{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    padding: 100px 10px;
+}
+
+#left h1{
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+
+#left h1 span img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -40px;
+    border: 3px solid black;
+}
+
+#container #right{
+    height: 100%;
+    width: 50%;
+    padding: 100px 10px;
+    /* background-color: rgb(228, 228, 228); */
+}
+
+#right img{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#page2 .box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid #6B6B6B;
+    border-radius: 20px;
+    padding: 40px;
+    /* margin-top: 20px; */
+}
+
+#page2 .box h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.box p{
+    font-size: 15px;
+    text-align:center;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 30px;
+}
